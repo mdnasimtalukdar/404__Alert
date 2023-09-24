@@ -77,3 +77,58 @@ body {
     padding: 2.4rem 4.3rem;
 }
 /* === Page Not Found Css === */
+
+
+/* === Responsive CSS Here === */
+/* === This part of code is for small Device === */
+@media screen and (max-width:576px) {
+    .container > h3 {
+        margin: 2rem 0 6rem 0;
+        font-size: 1.8rem;
+    }
+    .pageContainer {
+        grid-template-columns: 1fr;
+        gap: 6rem;
+    }
+    .page__image {
+        width: 28rem;
+    }
+    .page__image img {
+        width: 100%;
+    }
+    .page__content {
+        padding: 0;
+        margin-bottom: 10rem;
+    }
+    .page__content h1{
+        font-size: 4.8rem;
+    }
+    .page__content p{
+        padding: 0;
+        font-size: 1.8rem;
+    }
+}
+/* === This part of code is for small Device === */
+
+
+/* === This part of code is for medium Device === */
+@media screen and (min-width:576px) and (max-width:1400px) {
+    .container > h3 {
+        margin: 2rem 0 6rem 0;
+    }
+    .pageContainer {
+        grid-template-columns: 1fr;
+        gap: 6rem;
+    }
+    .page__content p{
+        padding: 0;
+        padding-right: 6rem;
+    }
+    .page__content {
+        margin-bottom: 10rem;
+    }
+}
+/* === This part of code is for medium Device === */
+
+
+/* === Responsive CSS Here === */
